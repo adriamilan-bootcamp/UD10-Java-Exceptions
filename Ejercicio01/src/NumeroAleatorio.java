@@ -1,8 +1,21 @@
 
 public class NumeroAleatorio {
+	/* Atributo */
+	private int valor;
+	private int max;
+	private int min;
+	
+	/**
+	 * @param valor
+	 */
+	public NumeroAleatorio() {
+		this.max = 500;
+		this.min = 1;
+		this.valor = generarNumero(max, min);
+	}
 	
 	/* Getter */
-	
+
 	/**
 	 * @return the valor
 	 */
