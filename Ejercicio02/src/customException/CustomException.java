@@ -8,11 +8,12 @@ public class CustomException extends Exception {
 		
 	}
 	
+	/*
+	 * @return Devuelve el mensaje introducido en el constructor de la clase CustomException
+	 */
 	@Override
 	public String getMessage() {
-		
-		return messageException;
-	
+		return this.messageException;
 	}
 	
 }
