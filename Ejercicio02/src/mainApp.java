@@ -16,7 +16,7 @@ public class mainApp {
 		try {
 			System.out.println("Mensaje mostrado por pantalla");
 			
-			throw new CustomException("Execepcion captura por mesnsaje: Esto es un objeto Excepcion");
+			throw new CustomException("Execepcion captura por mensaje: Esto es un objeto Excepcion");
 		}catch (CustomException ex) {
 			System.out.println(ex);
 		}

@@ -2,10 +2,10 @@ package customException;
 
 public class CustomException extends Exception {
 	
-	private String messageException;
+	private String messageException = "Default Error";
 	
-	public CustomException() {
-		
+	public CustomException(String errorMessage) {
+		this.messageException = errorMessage;
 	}
 	
 	/*
