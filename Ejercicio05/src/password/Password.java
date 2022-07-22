@@ -1,8 +1,10 @@
 package password;
 
 public class Password {
+
+	private String contrasena;
 	
-	
+	private int longitud;
 	
 	
 	
