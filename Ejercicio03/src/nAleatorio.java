@@ -7,7 +7,7 @@ public class nAleatorio {
 	
 	/* Constructor */
 	public nAleatorio() {
-//		System.out.println("Generando numero aleatorio...");
+		System.out.println("Generando numero aleatorio...");
 		genNum();
 	}
 		
@@ -30,12 +30,16 @@ public class nAleatorio {
 	/*
      * Metodo comprueba si el numero generado aleatoriamente es par o impar
      */
-	public void esPar() {
-		if(numero % 2 == 0) {
-			System.out.println("Es par");
-			return;
+	public String esPar() {
+		String message = "";
+		
+		if(numero % 2 == 0) { // Si el resto es 0
+			message = "par";
+		} else {
+			message = "impar";
 		}
-		System.out.println("Es impar");
+		
+		return message; // Devuelve un string con el contenido "par" o "impar"
 	}
 
 }
