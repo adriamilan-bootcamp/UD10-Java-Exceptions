@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class mainApp {
 	
 	public static void main(String[] args) {
-	
+		adivinarNumero(new NumeroAleatorio());
 	}
 	
 	/*
