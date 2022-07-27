@@ -6,6 +6,17 @@ public class Calculadora {
 	private double numero1 = 0.00;
 	private double numero2 = 0.00;
 
+	
+	
+	
+	
+	
+	/**
+	 * Constructor por defecto
+	 */
+	public Calculadora() {
+	}
+
 	/*
 	 * Constructor para:
 	 * - Raiz cuadrada
@@ -42,6 +53,22 @@ public class Calculadora {
 	 */
 	public double getNumero2() {
 		return numero2;
+	}
+
+	
+	
+	/**
+	 * @param numero1 the numero1 to set
+	 */
+	public void setNumero1(double numero1) {
+		this.numero1 = numero1;
+	}
+
+	/**
+	 * @param numero2 the numero2 to set
+	 */
+	public void setNumero2(double numero2) {
+		this.numero2 = numero2;
 	}
 
 	/*
